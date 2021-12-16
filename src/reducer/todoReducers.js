@@ -105,7 +105,9 @@ const todoReducers = (state = initialState, action) => {
             console.log("newlist", newList)
             return {
                 ...state,
-                list: newList
+                list: newList,
+                userInp: ""
+
             }
 
         default:

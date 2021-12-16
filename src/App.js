@@ -58,7 +58,7 @@ function App() {
                   className="updateList"
                   class="btn-floating btn-medieum waves-effect waves-light red"
                   onClick={() => {
-                    dispatch(updateList());
+                    dispatch(updateList(), settoggleSubmit(true));
                   }}
                 >
                   UPDATE-TODO
